@@ -1,0 +1,232 @@
+@charset:"UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "맑은 고딕";
+}
+.wrap{
+    margin: 0px auto;
+    max-width: 1200px;
+}
+header{
+    width: 100%;
+    height: 150px;
+}
+#logo>a>img{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+header>ul{
+    float: right;
+    width: 720px;
+    margin-top: -65px;
+    z-index: 9;
+}
+header>ul li{
+    float: left;
+    list-style: none;
+    width: 180px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: inherit;
+    position: relative;
+    transition: all 0.4s;
+}
+header>ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+header>ul li:hover{
+    background-color: #0086ff;
+    cursor: pointer;
+}
+.submenu{
+    position: absolute;
+    z-index: 8;
+    margin-top: 10px;
+    display: none;
+}
+.submenu li{
+    background-color: rgba(255,255,255,0.75);
+    transition: all 0.4s;
+}
+.submenu li:hover{
+    background-color: #81c3ff;
+}
+
+
+
+#slide{
+    width: 1200px;
+    height: 360px;
+    background-color: #333333;
+}
+#slide>hr{border: 5px solid #000000;}
+#welcome{
+    background-color: rgba(255,255,255,0.8);
+    width: 260px;
+    border-radius: 20px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    z-index: 2;
+    margin: 143px 470px;
+}
+#welcome h1{
+    color: #0086ff;
+}
+#imgss{
+    width: 720px;
+    height: 350px;
+    overflow: hidden;
+}
+#Lmar{
+    width: 240px;
+    height: 350px;
+    float: left;
+    display: inline-block;
+}
+#Rmar{
+    width: 240px;
+    height: 350px;
+    float: right;
+    display: inline-block;
+}
+.imgs{
+    width: 720px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.imgs img{
+    width: 720px;
+    height: 350px;
+    position: absolute;
+    transition: all 1s;
+}
+
+
+#contents{
+    height: 480px;
+}
+#divzz{
+    margin: 80px 120px;
+}
+.divz{
+    width: 960px;
+    height: 200px;
+}
+.divz div{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.divz section{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: #ffffff;
+}
+.divz h2{
+    text-align: center;
+    margin-top: 5px;
+}
+#s1{background-color: #0072ff; transition: all 0.2s;}
+#s1:hover{background-color: #ffffff; color: #0072ff;}
+#s1>img{width: 200px; height: 100px; margin: 15px 20px;}
+
+#s2{background-color: #0042ff; transition: all 0.2s;}
+#s2:hover{background-color: #ffffff; color: #0042ff;}
+#s2>img{width: 187.5px; height: 60px; margin: 30px 26px 40px 26px;}
+
+#s3{background-color: #0018ff; transition: all 0.2s;}
+#s3:hover{background-color: #ffffff; color: #0018ff;}
+#s3>img{width: 160px; height: 162.5px; margin: 0px 40px}
+
+#s4{background-color: #000066; transition: all 0.2s;}
+#s4:hover{background-color: #ffffff; color: #000066;}
+#s4>img{width: 240px; height: 120px; margin-top: -20px;}
+table.notice {
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 1.5;
+}
+table.notice thead th {
+    vertical-align: top;
+    color: #00009e;
+    border-bottom: 3px solid #000066;
+}
+table.notice tbody th {
+    width: 350px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #ffffff;
+    cursor: pointer;
+}
+table.notice td {
+    width: 150px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #ffffff;
+    cursor: pointer;
+}
+.gallary{
+    margin-top: 35px;
+    margin-left: 2px;
+}
+.gallary img{
+    width: 146px;
+    height: 81px;
+    position: absolute;
+    transition: all 0.2s;
+}
+.gallary img:hover{
+    box-shadow: 0px 0px 10px yellow;
+}
+.g1{margin-left: 10px;}
+.g2{margin-left: 166px;}
+.g3{margin-left: 322px;}
+
+
+#sitemap{
+    width: 100%;
+    height: 35px;
+    background-color: #00009e;
+    display: inline-block;
+    margin-bottom: -5px;
+}
+#siteList{list-style: none;}
+#siteList li{
+    float: left;
+    width: 12.5%; 
+    text-align: center;
+    padding: 7px 0px;
+}
+#siteList li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer{
+    height: 150px;
+    background-color: #000066;
+    color: #7f7f7f;
+}
+#info{
+    list-style: none;
+    margin-top: -75px;
+    margin-left: 360px;
+}
+.GLogo{
+    margin-top: 35px;
+    margin-left: 100px;
+}
+footer #icons{
+    float: right;
+    margin-top: -55px;
+    margin-right: 100px;
+}
+footer #icons a img{
+    width: 50px;
+    height: 50px;
+}
